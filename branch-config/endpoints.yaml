@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: endpoints
-  namespace: branch-config
-data:
-  logs: https://logs.endpoint.internal.corpnet
-  metrics: https://metrics.endpoint.internal.corpnet/v2
