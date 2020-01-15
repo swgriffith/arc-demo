@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: podinfo
-  namespace: itops
+  namespace: branch-config
   labels:
     app: podinfo
   annotations:
